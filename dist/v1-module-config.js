@@ -1,5 +1,5 @@
-"use strict";
 const greeting = () => {
     console.log("Hello World");
 };
 greeting();
+export {};
