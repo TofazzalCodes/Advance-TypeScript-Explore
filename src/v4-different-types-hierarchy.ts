@@ -39,12 +39,13 @@ const anotherGreet = () : undefined => {
 const greetings: void = anotherGreet();
 console.log(greetings);
 
-// * bottom type
-const getError = (msg: string) : never => {
-    throw new Error(msg);
-}
 
-const x : string = getError("")
+// * bottom type
+// const getError = (msg: string) : never => {
+//     throw new Error(msg);
+// }
+
+// const x : string = getError("ABC")
 
 
 
