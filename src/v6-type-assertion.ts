@@ -7,7 +7,7 @@
  const someStatus: string = "pending";
 
  const showStatus = (status: Status) => {
-    console.log("yout current application status is🧨" + status);  
+    console.log("your current application status is🧨" + status);  
  }
 
  showStatus(someStatus as Status)
@@ -33,5 +33,8 @@ const configuration = {
     port: 8000, 
     prefix: "/api/v1"
 } as const; 
+
+console.log("hello");
+
 
  
