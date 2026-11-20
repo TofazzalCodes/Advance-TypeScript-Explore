@@ -82,7 +82,7 @@ const printAl= (x: string | string[] | null ) => {
     }
     console.log("");
     
-}
+} 
 
 printAl("dfjdfk")
 
